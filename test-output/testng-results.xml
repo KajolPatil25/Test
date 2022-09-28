@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+    <line>
+      <![CDATA[MDB country and Wikipedia country name Matched]]>
+    </line>
+    <line>
+      <![CDATA[IMDB Website open successfully]]>
+    </line>
+    <line>
+      <![CDATA[IMDB Website searched movie read data from excel successfully done]]>
+    </line>
+    <line>
+      <![CDATA[ReleaseDate and Country Text Obtained successfully from website ]]>
+    </line>
+    <line>
+      <![CDATA[Wkipedia Website Open Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Wkipedia Searched Movie read data from excel Successfully done]]>
+    </line>
+    <line>
+      <![CDATA[Wkipedia Text for Movie release date and Country Obtained Successfully from website]]>
+    </line>
+    <line>
+      <![CDATA[IMDB Movie Release Date and Wikipedia Movie Date Matched]]>
+    </line>
+    <line>
+      <![CDATA[browser close successfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="44896" started-at="2022-09-28T23:32:40 IST" finished-at="2022-09-28T23:33:24 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="44896" started-at="2022-09-28T23:32:40 IST" finished-at="2022-09-28T23:33:24 IST">
+      <class name="Test.VerifyTest">
+        <test-method status="PASS" signature="verifyMovieCountry()[pri:0, instance:Test.VerifyTest@4b553d26]" name="verifyMovieCountry" duration-ms="37" started-at="2022-09-28T23:32:40 IST" finished-at="2022-09-28T23:32:40 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[MDB country and Wikipedia country name Matched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyMovieCountry -->
+        <test-method status="PASS" signature="browserIniImdb()[pri:1, instance:Test.VerifyTest@4b553d26]" name="browserIniImdb" duration-ms="21073" started-at="2022-09-28T23:32:40 IST" finished-at="2022-09-28T23:33:01 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[IMDB Website open successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browserIniImdb -->
+        <test-method status="PASS" signature="IMDB()[pri:2, instance:Test.VerifyTest@4b553d26]" name="IMDB" duration-ms="5862" started-at="2022-09-28T23:33:01 IST" finished-at="2022-09-28T23:33:07 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[IMDB Website searched movie read data from excel successfully done]]>
+            </line>
+            <line>
+              <![CDATA[ReleaseDate and Country Text Obtained successfully from website ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- IMDB -->
+        <test-method status="PASS" signature="browserIniWiki()[pri:3, instance:Test.VerifyTest@4b553d26]" name="browserIniWiki" duration-ms="15215" started-at="2022-09-28T23:33:07 IST" finished-at="2022-09-28T23:33:22 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Wkipedia Website Open Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browserIniWiki -->
+        <test-method status="PASS" signature="Wiki()[pri:4, instance:Test.VerifyTest@4b553d26]" name="Wiki" duration-ms="1916" started-at="2022-09-28T23:33:22 IST" finished-at="2022-09-28T23:33:24 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Wkipedia Searched Movie read data from excel Successfully done]]>
+            </line>
+            <line>
+              <![CDATA[Wkipedia Text for Movie release date and Country Obtained Successfully from website]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Wiki -->
+        <test-method status="PASS" signature="verifyReleaseDate()[pri:5, instance:Test.VerifyTest@4b553d26]" name="verifyReleaseDate" duration-ms="1" started-at="2022-09-28T23:33:24 IST" finished-at="2022-09-28T23:33:24 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[IMDB Movie Release Date and Wikipedia Movie Date Matched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyReleaseDate -->
+        <test-method status="PASS" signature="browserClose()[pri:7, instance:Test.VerifyTest@4b553d26]" name="browserClose" duration-ms="735" started-at="2022-09-28T23:33:24 IST" finished-at="2022-09-28T23:33:24 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[browser close successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- Test.VerifyTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
